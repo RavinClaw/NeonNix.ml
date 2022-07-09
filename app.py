@@ -1,3 +1,6 @@
+# The Code That Runs The Website
+# Website URL: NeonNix.ml
+
 from flask import Flask, render_template, url_for, redirect, request
 from random import randint as rd
 
