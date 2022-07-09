@@ -1,0 +1,41 @@
+body {
+  background: black;
+  text-align: center;
+}
+
+h1 {
+  color: aqua;
+}
+
+h2 {
+  color: aquamarine;
+}
+
+h3 {
+  color: whitesmoke;
+}
+
+h4 {
+  color: whitesmoke;
+}
+
+h5 {
+  color: whitesmoke;
+}
+
+h6 {
+  color: whitesmoke;
+}
+
+header {
+  color: mediumaquamarine;
+}
+
+a {
+  color: purple;
+}
+
+div {
+  margin: 10% 10;
+  padding: 10px;
+}
