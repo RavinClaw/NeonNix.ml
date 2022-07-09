@@ -30,16 +30,14 @@ def account_new():
     return
   return render_template("new_account.html")
 
-#----
-# New And Not Added Yet
 @app.route("/account/login", methods=["GET", "POST"])
 def account_login():
   if request.method == "POST":
     print(request.form["username"])
     print(request.form["email"])
     print(request.form["password"])
+    return
   return render_template("account_login.html")
-#----
 
 if __name__ == "__main__":
   app.run(host='0.0.0.0', port=7482)
